@@ -18,8 +18,12 @@
 
     <main>
         <p class="month">October</p>
-        <div class="balence"></div>
-        <p class="opening">Available Balence: Rs.3000</p>
+        <div class="balence">
+
+            <p class="opening">Available Balence: Rs.<span class="avl">0</span></p>
+            <p class="spent">Amount Spent: Rs.<span class="spend">0</span></p>
+        </div>
+        
         <form>
             <label>Type of transaction:</label>
             <input class="typeof" type="text">
@@ -29,17 +33,20 @@
             <input class="price"type="number">
             <button class="submit" type="button">Submit</button>
         </form>
-        <div class="transaction">
-            <div class="credit trans">
-                <p class="type">Credit</p>
-                <p class="source">From Papa</p>
-                <p class="amount">3000</p>
+        <div class="outer">
+            <div class="transaction">
+                <!-- <div class="credit trans">
+                    <p class="type">Credit</p>
+                    <p class="source">From Papa</p>
+                    <p class="amount">3000</p>
+                </div>
+                <div class="debit trans">
+                    <p class="type">Debit</p>
+                    <p class="source">To Srijan</p>
+                    <p class="amount">300</p> -->
             </div>
-            <div class="debit trans">
-                <p class="type">Debit</p>
-                <p class="source">To Srijan</p>
-                <p class="amount">300</p>
-            </div>
+        </div>
+       
         </div>
     </main>
 
