@@ -34,7 +34,7 @@ button.addEventListener('click',function(){
     if(type=='debit')
     {
         avl=avl-Number(amount)
-        spent=spent+amount
+        spent=spent+Number(amount)
     }
 
     console.log(type,rece,amount)
