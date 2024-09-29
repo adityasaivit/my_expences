@@ -63,7 +63,8 @@ p{
 }
 
 form{
-    padding:3rem;
+    margin-top:3rem;
+    padding:0rem;
 }
 form input{
     border:2px solid black;
