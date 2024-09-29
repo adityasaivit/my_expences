@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.rep{
+    display:flex;
+    align-items:center;
+    font-size:1.5rem;
+    font-family:"Bebas Neue", sans-serif;
+}
+
+.logo{
+    font-size:2rem;
+}
+main{
+   
+    padding:0 4rem;
+    
+}
+.month{
+    margin-top:30px;
+    font-size:6rem;
+}
+body{
+    font-family:"Bebas Neue";
+}
+.opening{
+    font-size:3rem;
+    margin-top:20px;
+    color:rgb(128, 197, 25);
+}
+p{
+    margin:0px;
+}
+
+.trans{
+    display:flex;
+    justify-content:space-around;
+   font-weight:100;
+   padding:1rem;
+   box-shadow:0px 0px 5px grey;
+   margin:1rem;
+   width:1000px;
+   
+}
+
+.transaction{
+    max-width:800px;
+    margin-top:4rem;
+}
+
+.debit .type{
+    color:red;
+}
+.credit .type{
+    color:rgb(128, 197, 25);
+}
+.credit .amount{
+    color:rgb(128, 197, 25);
+}
+
+.debit .amount{
+    color:red;
+}
+
+form{
+    padding:3rem;
+}
+form input{
+    border:2px solid black;
+    border-radius:10px;
+    font-size:18px;
+    padding:1rem;
+    margin:0.5rem
+}
+
+form button{
+    border-radius:10px;
+    padding:1rem;
+    width:8rem;
+    font-size:1rem;
+    background-color:white;
+    color:black;
+    transition: all 0.5s;
+
+}
+form button:hover{
+   color:white;
+   background-color:black;
+}
+form button:active{
+    color:black;
+    background-color:white;
+ }
+
+ .balence{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+ }
+ .spent{
+    font-size:2.5rem;
+    color:red;
+ }
+input:focus{
+    outline: none;
+}
+
